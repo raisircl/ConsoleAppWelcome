@@ -4,20 +4,24 @@
 
 //namespace ConsoleAppWelcome
 //{
-//    internal class Swap
+//    internal class Biggest
 //    {
 //        static void Main()
 //        {
-//            int a, b, t;
+//            int a, b;
 //            Console.WriteLine("enter number 1");
 //            a = Convert.ToInt32(Console.ReadLine());
 //            Console.WriteLine("enter number 2");
 //            b = Convert.ToInt32(Console.ReadLine());
-//            t = a;
-//            a = b;
-//            b = t;
-//            Console.WriteLine($"After swap A={a} and B={b}");
-
+//            if(a>b)
+//            {
+//                Console.WriteLine("A is Biggest");
+//            }
+//            else
+//            {
+//                Console.WriteLine("B is Biggest");
+//            }
+//            // sp and cp - profit or loss
 //        }
 //    }
 //}
